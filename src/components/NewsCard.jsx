@@ -15,7 +15,7 @@ function NewsCard({ id, title, link, category, timestamp, publisher }) {
           </a>
         </div>
         <div className="card-footer text-muted">
-          {moment.unix(timestamp).format("DD/MM/YYYY")}
+          {moment(timestamp).format("DD/MM/YYYY")}
         </div>
       </div>
     </div>
