@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import SearchBox from "./SearchBox";
 
 export default function Header() {
   let location = useLocation();
@@ -63,17 +64,7 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          <form className="d-flex float-right">
-            <input
-              className="form-control me-sm-2"
-              type="text"
-              placeholder="Search"
-              wtx-context="5D8C474B-C233-4B3C-B0E3-37B1FB96C22D"
-            />
-            <button className="btn btn-secondary  m-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
+          <SearchBox />
         </div>
       </nav>{" "}
     </header>

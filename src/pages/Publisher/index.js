@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { useParams } from "react-router-dom";
-import NewsCard from "./NewsCard";
+import NewsCard from "../../components/NewsCard";
 
 function getPublisher(publisherSlug, publishers) {
   return (

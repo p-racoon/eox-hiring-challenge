@@ -44,7 +44,8 @@ export function useNews() {
       })
       .catch((error) => {
         console.error(`failed to fetch news data`, error);
-        setNews(null);
+        setNews([]);
+        setPublishers([]);
       });
   }, []);
   return [news, publishers];
