@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed on netlify, on this link [EOX hiring challenge - Prasham](http://condescending-snyder-3b3e39.netlify.app/).
+The screenshots with deployed link `.txt` file is in the hackerearth folder, placed in root.
 
 ## Available Scripts
 
